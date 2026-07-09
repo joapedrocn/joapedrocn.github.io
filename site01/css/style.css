@@ -27,11 +27,15 @@ header a {
  
 .laranja {
     background-color: #ca4e30;
+    height: 400px;
 }
 
 header li:first-child, header li:hover {
     background-color: #ac0047;
     padding:5 px 10px;
+}
+.branca {
+    width: 100%;
 }
 header ul {
     display: flex;
@@ -40,4 +44,19 @@ header ul {
     padding-bottom:40px;
     width:500px;
     list-style:none;
+}
+.boxes {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    border: 1px solid #1f1502;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+.box {
+    border: 1px solid #1f1502;
+    width: 310px;
+    margin: 0px;
+    padding:30px;
+    box-sizing: border-box;
 }
