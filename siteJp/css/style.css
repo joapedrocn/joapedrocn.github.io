@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.geral {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.quemE,
+.estudaA,
+.sonhosF,
+.exerciciosBas,
+.exerciciosVetorMatriz,
+.trabalho {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #444;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 12px 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+li a,
+.link a {
+    background-color: #333;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+li a:hover,
+.link a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.rodape a {
+    color: white;
+}
+.botoes {
+    text-align: center;
+    margin: 20px;
+}
+
+.botoes a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botoes a:hover {
+    background-color: #555;
+}
