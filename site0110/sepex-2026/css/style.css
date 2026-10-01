@@ -1,0 +1,23 @@
+.botao {
+    /*box-model*/
+    padding: 10 px 30px;
+
+    /*bordas*/
+
+    border-radius: 5px;
+    /*textos e fontes*/
+
+    text-decoration: none;
+
+    /*cores*/
+    background-color: #aaa;
+    color: #000;
+}
+
+.botao:hover {
+    background-color: blue;
+    transform: scale(1.05);
+    color: #00f;
+    box-shadow: 2px 5px 5px #888;
+    transition: all .2s;
+}
