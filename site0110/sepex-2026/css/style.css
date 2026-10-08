@@ -1,6 +1,6 @@
 .botao {
     /*box-model*/
-    padding: 10 px 30px;
+    padding: 15px 45px;
 
     /*bordas*/
 
@@ -15,9 +15,43 @@
 }
 
 .botao:hover {
-    background-color: blue;
+    background-color: #d6d9a9;
     transform: scale(1.05);
-    color: #00f;
+    color: ;
     box-shadow: 2px 5px 5px #888;
     transition: all .2s;
+}
+
+
+header {
+    text background-color: whitesmoke;
+    border: 20px;
+    padding: 40px;
+    margin: 0;
+}
+
+main {
+    background-color: #007da6;
+    font-size: 30px;
+}
+
+.lado {}
+
+footer {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.main1 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+ul{
+    
+}
+.lado {
+    
 }
