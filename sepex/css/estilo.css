@@ -1,0 +1,77 @@
+header, main, footer {
+    width: 800px;
+    margin:auto;
+}
+header, header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style: none;
+    width: 200px;
+    border: 1px solid #f00;;
+}
+
+header a {
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    text-transform: uppercase;
+}
+
+.programacao {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+.programacao article {
+    border: 1px solid #000;
+    width: 250px;
+    box-shadow: 2px 3px 15px #666;
+}
+
+.programacao article:hover{
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 2px 3px 5px #666;
+    transition: .5s ease;
+}
+
+.destaque {
+    animation: pulsar .5s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsar {
+    0% {transform: scale(.9);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+}
+
+.botao{
+    /* box model */
+    padding:10px 30px;
+    
+    /* bordas */
+    border-radius: 5px;
+
+    /* texto e fontes */
+    text-decoration: none;
+
+    /* cores */
+    background-color: #aaa;
+    color:#000;
+}
+
+.botao:hover {
+    background-color: #aaf;
+    transform: scale(1.05);
+    color:#00f;
+    box-shadow: 2px 5px 5px #888;
+    transition:all .2s;
+}
